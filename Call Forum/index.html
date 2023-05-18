@@ -10,13 +10,24 @@
 		<h1>You’re talking to <span id="name"></span> from <span id="team"></span> and how may I help you today?</hi>
 
 		<div class="sticky issue-description">
-		<div class="form-group">
-			<label for="issue-description">Issue Description:</label>
+		<div class="form-group flex">
+            
+			<div class="rough-name">
+            <label for="rough-name">Name</label>
+            <input type="text">
+            </div>
+            <div class="issue">
+            <label for="issue-description">Issue Description:</label>
 			<textarea rows="74" cols="50" id="issue-description" name="issue-description" class="textarea" required>
-            Brief Issue  
+            Brief Issue 
+
+            
             Error Code
+
+
             Issue Description            
             </textarea>
+        </div>
 		</div>
 		</div>
        <div class="text">
@@ -74,6 +85,7 @@
     </section>
 <!-- Email :- NATO Confirmatin ^^^^^^ -->
 	
+    <p>I understand that there is an issue</p>
 
         <!-- Asset Serial Number :- NATO Confirmatin -->
     <div class="input-container">
@@ -89,6 +101,26 @@
           </div>
     </section>
      <!-- Asset Serial Number :- NATO Confirmatin ^^^-->
+
+     <p>Please give me a minute to check the warranty details</p>
+     <p>Check in Entitlement search and inform the customer the following:</p>
+     <p>
+        <ul>
+            <li><p>So i can see that you are calling with regards to &lt;&lt;&lt; PRODUCT NAME &gt;&gt;&gt;</p></li>
+            <li> <p>The Warranty / Contract duration</p> </li>
+            <li> <p>Coverage Window</p> </li>
+            <li> <p>Response Time</p> </li>
+        </ul>
+     </p>
+
+     <div class="form-group">
+        <label for="enviornment-info">is this a Production unit | test unit | Maintanance Unit?</label>
+        <input type="radio" id="production-unit" name="existing-case" required> Production
+        <input type="radio" id="test-unit" name="existing-case" required> Test 
+        <input type="radio" id="test-unit" name="existing-case" required> Maintanance 
+    </div>
+
+
         <div class="form-group">
             <label for="system-location"l>System Location:</label>
             <input type="text" id="system-location" name="system-location" required>
@@ -122,6 +154,11 @@
 			<input type="text" id="case-id" name="case-id" required>
 		</div>
         <p>Close all the Tabs and Applications which you opened</p>
+        <p>	Please remember to click reply all when you reply to the Email
+	<br>
+            Inform the customer, you will receive a call from the Technical team shortly (call back).
+            <br>
+        Is there anything else I could help you with.</p>
 		<div class="form-group">
 			<label for="summary">Summary:</label>
 			<textarea id="summary" name="summary" class="textarea" required></textarea>
